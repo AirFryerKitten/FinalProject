@@ -1,0 +1,13 @@
+body{
+    background-image: url("resources/index/background_image.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainCard{
+    width: 80vw;
+    height: 40vh;
+    background-color: orange;
+    margin: 10px;
+}
