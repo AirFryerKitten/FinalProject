@@ -1,3 +1,13 @@
+@font-face{
+    font-family: "boldText";
+    src: url("resources/fonts/BlitzBold.otf") format("opentype");
+}
+
+@font-face{
+    font-family: "mainText";
+    src: url("resources/fonts/BlitzMain.otf") format("opentype");
+}
+
 body{
     background-image: url("resources/index/background_image.png");
     display: flex;
@@ -7,7 +17,16 @@ body{
 
 #mainCard{
     width: 80vw;
-    height: 40vh;
-    background-color: orange;
+    height: 60vh;
+    background-image: url("resources/index/card.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 10px;
+}
+
+h1{
+    font-family: "boldText"
+}
+p{
+    font-family: "mainText";
 }
