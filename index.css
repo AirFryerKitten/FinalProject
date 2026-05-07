@@ -16,18 +16,79 @@ body{
 }
 
 h1{
-    font-family: "boldText"
+    font-family: "boldText";
 }
 p{
     font-family: "mainText";
 }
 
+.rulesIconRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    border: 1px solid blue;
+    width: 80%;
+    height: 15%;
+}
+
+.rulesIcon{
+    margin: 0%;
+    height: 100%;
+}
+
+.icon{
+    height: 100%;
+    width: auto;
+    
+}
+
 #mainCard{
     width: 80vw;
-    height: 60vh;
+    height: 70vh;
     background-image: url("resources/index/card.avif");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
+#gridDiv{
+    width: 70%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-blend-mode: lighten;
+    margin: 0%;
+}
+
+#rules{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-blend-mode: lighten;
+    margin: 0%;
+}
+
+#rulesText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+    height: 30%;
+    border: red solid 1px;
+}
+
+#rulesIcons{
+    display: flex;
+    margin: 0%;
+    height: 70%;
+    width: 100%;
+    border: red solid 1px;
+    flex-direction: column;
+    align-items: center;
+}
