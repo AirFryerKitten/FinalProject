@@ -10,33 +10,38 @@ Final Project
     <head>
         <link rel = "stylesheet" href = "index.css">
         <title>Scratch off</title>
-   
+        <link rel = "icon" href="resources/index/icon.ico">
     </head>
     <body>
         <audio src="resources/audio/bgm.mp3" autoplay loop muted></audio>
         <div id = "header">
             <a href = "pages/credits/credits.html"><div>credits</div></a>
-            <div id = "headerTotal"><p>total balance:</p><p id = "amount">0</p><img src="resources/icons/money.png"></div>
+            <div id = "headerTotal"><p>Total Balance:</p><p id = "amount">0</p><img src="resources/icons/money.png"></div>
         </div>
         <div id = "mainCard">
             <div id = "gridDiv">
             </div>
             <div id = "rules">
+                <div id = "rulesHeader">
                 <div id = "rulesText">
                 <h1>How To Play:</h1>
                 <p>Open the capusles to see different salmonid!<br>Different salmonid award more cash.</p>
                 </div>
+
+                <div id = "price"><div id = "priceText"><p>10</p><img src="resources/icons/money.png"></div></div>
+                </div>
+
                 <div id = "rulesIcons">
-                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/chum.png" alt = "image of the goldie salmonid" class = "icon"></div><p>0</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
-                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/scrapper.png" alt = "image of the goldie salmonid" class = "icon"></div><p>1</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
-                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/flopper.png" alt = "image of the goldie salmonid" class = "icon"></div><p>10</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
-                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/stringer.png" alt = "image of the goldie salmonid" class = "icon"></div><p>25</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
-                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/flyfish.png" alt = "image of the goldie salmonid" class = "icon"></div><p>50</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
-                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/goldie.png" alt = "image of the goldie salmonid" class = "icon"></div><p>100</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
+                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/chum.png" alt = "image of the goldie salmonid" class = "icon"></div><p class = "iconText">0</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
+                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/scrapper.png" alt = "image of the goldie salmonid" class = "icon"></div><p class = "iconText">1</p><div class = "rulesIcon" ><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
+                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/flopper.png" alt = "image of the goldie salmonid" class = "icon"></div><p class = "iconText">10</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
+                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/stringer.png" alt = "image of the goldie salmonid" class = "icon"></div><p class = "iconText">25</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
+                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/flyfish.png" alt = "image of the goldie salmonid" class = "icon"></div><p class = "iconText">50</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
+                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/goldie.png" alt = "image of the goldie salmonid" class = "icon"></div><p class = "iconText">100</p><div class = "rulesIcon" ><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
                 </div>
             </div>
         </div>
-        <div id = "newTicket" onclick = "genCard()">new ticket</div>
+        <div id = "newTicket" onclick = "genCard()"><p>New Ticket</p></div>
         <script src = "index.js"></script> 
     </body>
 </html>
