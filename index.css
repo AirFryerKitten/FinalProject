@@ -28,7 +28,6 @@ p{
     justify-content: center;
     justify-items: center;
     margin: 1px;
-    border: 1px solid blue;
     width: 80%;
     height: 15%;
 }
@@ -41,7 +40,7 @@ p{
 .icon{
     height: 100%;
     width: auto;
-    
+
 }
 
 .tileRow{
@@ -49,17 +48,19 @@ p{
     flex-direction: row;
     width: 100%;
     height: 30%;
-    
+    justify-content: space-around;
 }
 
 .tile{
-    width: 30%;
+    width: 22%;
     height: 100%;
     margin: 0%;
-    border: solid 1px purple;
+
     background-size:fill;
     background-position: center center;
     background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
 }
 
 #mainCard{
@@ -76,6 +77,9 @@ p{
 }
 
 #gridDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 70%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.1);
@@ -114,3 +118,21 @@ p{
     align-items: center;
 }
 
+#header{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: orange;
+    justify-content: space-between;
+}
+
+#newTicket{
+    background-color: white;
+}
+
+#headerTotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

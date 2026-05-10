@@ -14,6 +14,10 @@ Final Project
     </head>
     <body>
         <audio src="resources/audio/bgm.mp3" autoplay loop muted></audio>
+        <div id = "header">
+            <a href = "pages/credits/credits.html"><div>credits</div></a>
+            <div id = "headerTotal"><p>total balance:</p><p id = "amount">0</p><img src="resources/icons/money.png"></div>
+        </div>
         <div id = "mainCard">
             <div id = "gridDiv">
             </div>
@@ -23,15 +27,16 @@ Final Project
                 <p>Open the capusles to see different salmonid!<br>Different salmonid award more cash.</p>
                 </div>
                 <div id = "rulesIcons">
-                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/chum.png" alt = "image of the goldie salmonid" class = "icon"></div><p>- 0</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
-                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/scrapper.png" alt = "image of the goldie salmonid" class = "icon"></div><p>- 1</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
-                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/flopper.png" alt = "image of the goldie salmonid" class = "icon"></div><p>- 10</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
-                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/stringer.png" alt = "image of the goldie salmonid" class = "icon"></div><p>- 25</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
-                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/flyfish.png" alt = "image of the goldie salmonid" class = "icon"></div><p>- 50</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
-                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/goldie.png" alt = "image of the goldie salmonid" class = "icon"></div><p>- 100</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
+                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/chum.png" alt = "image of the goldie salmonid" class = "icon"></div><p>0</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
+                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/scrapper.png" alt = "image of the goldie salmonid" class = "icon"></div><p>1</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
+                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/flopper.png" alt = "image of the goldie salmonid" class = "icon"></div><p>10</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
+                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/stringer.png" alt = "image of the goldie salmonid" class = "icon"></div><p>25</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
+                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/flyfish.png" alt = "image of the goldie salmonid" class = "icon"></div><p>50</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
+                    <div class = "rulesIconRow"><div class = "rulesIcon"><img src = "resources/icons/goldie.png" alt = "image of the goldie salmonid" class = "icon"></div><p>100</p><div class = "rulesIcon"><img src="resources/icons/money.png" alt="image of the cash" class = "icon"></div></div>
                 </div>
             </div>
         </div>
+        <div id = "newTicket" onclick = "genCard()">new ticket</div>
         <script src = "index.js"></script> 
     </body>
 </html>
