@@ -27,9 +27,11 @@ body{
 
 h1{
     font-family: "boldText";
+    
 }
 p{
     font-family: "mainText";
+    
 }
 
 a:link{
@@ -43,7 +45,7 @@ a:link{
     justify-items: center;
     margin: 5px;
     width: 80%;
-    height: 15%;
+    height: 12%;
 }
 
 .rulesIcon{
@@ -138,7 +140,7 @@ a:link{
 
 #rulesIcons{
     display: flex;
-    margin: 0%;
+    margin: 10%;
     height: 70%;
     width: 100%;
     flex-direction: column;
@@ -195,4 +197,16 @@ a:link{
     display: flex;
     flex-direction: row;
     align-self: flex-start;
+}
+
+#ruleH1{
+    font-size: 1cqi
+}
+
+#ruleP{
+     font-size: 1cqi
+}
+
+#balanceDiv{
+    width: 30%;
 }
