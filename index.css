@@ -13,6 +13,16 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    background-size: cover;
+    background-position: center center;
+      
+    min-height: 100vh;
+    min-width: 100vw;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+
 }
 
 h1{
@@ -45,6 +55,7 @@ a:link{
     height: 100%;
     width: auto;
 
+    object-fit: fill;
 }
 
 .tileRow{

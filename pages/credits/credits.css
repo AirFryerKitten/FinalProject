@@ -1,4 +1,28 @@
+
 body{
     background-image: url("../../resources/index/background_image.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-size: cover;
+    background-position: center center;
+      
+    min-height: 100vh;
+    min-width: 100vw;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+
 }
 
+
+#mainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 70vh;
+    align-items: center;
+
+    background-color: rgba(66, 63, 58, 0.99);
+}
